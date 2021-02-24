@@ -1,0 +1,28 @@
+body {
+    font-family: 'Handlee', cursive;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center .item {
+    text-align: center;
+
+}
+
+.item .love {
+    margin-left: 45px;
+}
+
+.center .item h3 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+    color: #ff485a;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
