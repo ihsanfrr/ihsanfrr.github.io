@@ -7,9 +7,9 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/index.css">
-    
-    <title>Code - Ihsanfrr</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+    <title>Ihsanfrr Android Developer</title>
 </head>
 
 <body>
@@ -17,29 +17,21 @@
     <nav class="navbar py-4 navbar-expand-lg navbar-light bg-white custom-nav">
         <div class="container">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Ihsan<span>frr</span></a>
+                <a class="navbar-brand" href="">Ihsan<span>frr</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Kelas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="">Code</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Buat Permintaan</a>
-                        </li>
-                    </ul>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="#" class="btn btn-login" style="width: 100%">Login & Sign Up</a>
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCp3H-f5N7GEPkIkCvNPbvLw">Youtube</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -48,34 +40,125 @@
     </nav>
 
     <div class="jumbotron">
-        <h1 class="text-center text-hero mb-3">Katalog Code</h1>
-        <p class="text-center text-subtitle mb-4">Tersedia 1 source code yang bisa kamu beli</p>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 align-self-center">
+                    <p class="name">Ihsan Fajar Ramadhan</p>
+                    <h1 class="h1">Android Developer<br>and IT Mentor.</h1>
+                    <p class="subtitle">
+                        I'm from Indonesia and I'm a student at Smkn 1 Subang. I build my own mobile development team <span>AAROGAN</span> since 2019. Now I look forward to collaborate with you!
+                    </p>
+                    <a href="mailto:ihsan.fajardan@gmail.com" class="btn btn-custom">Email Me</a>
+                    <a href="http://bit.ly/CV-Ihsanfrr" target="_blank" class="btn btn-transparent">Download CV</a>
+                </div>
+                <div class="col-md-5 order-first order-md-5 align-self-center mb-5">
+                    <img src="./assets/images/ihsan.png" class="embed-responsive" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="code" class="container">
-        <div class="row">
-            <!-- Pengaduan Masyarakat -->
-            <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                <div class="card">
-                    <img src="./assets/thumbnails/pengaduan-masyarakat-code.png" class="card-img-top" alt="thumbnail">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-lg-8 col-7">
-                                <h2>Pengaduan Masyarakat</h2>
-                                <p>Rp 50.000</p>
+    <div class="container mb-5">
+        <div class="section-project pt-3 mb-5" id="project">
+            <h1 class="mb-5">Selected Project</h1>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
+                    <div class="card my-shadow mb-3" >
+                        <img src="./assets/images/covid.png" class="card-img-top" alt="covid">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-7">
+                                    <h2>Lawan COVID-19 App</h2>
+                                    <p>This application is to display statistics on the spread of the coronavirus in Indonesia.</p>
+                                </div>
                             </div>
-                            <div class="col-lg-4 col-5">
-                                <a href="">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
+                    <div class="card my-shadow mb-3" >
+                        <img src="./assets/images/quran.png" class="card-img-top" alt="quran">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-7">
+                                    <h2>myQuran App</h2>
+                                    <p>This application is to make it easier for people to read Al-Qur'an via a smartphone and with a beautiful UI.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
+                    <div class="card my-shadow mb-3" >
+                        <img src="./assets/images/todo.png" class="card-img-top" alt="todo">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-7">
+                                    <h2>Todo & Pomodoro Design</h2>
+                                    <p>I created this design for a fun and practice me in learning UI design for mobile applications.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="mb-5 custom-count">
+            <div class="bg-green p-5 d-flex justify-content-between">
+                <h4 class="mb-4">Interested working with me?</h4>
+                <div>
+                    <a href="#" class="btn btn-more mb-2">See More Projects</a>
+                    <a href="mailto:ihsan.fajardan@gmail.com" class="btn btn-custom mb-2">Email Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-why mb-5">
+            <h1 class="mb-5">Why Hire Me?</h1>
+            <div class="row">
+                <div class="col-lg-4 col-12 mt-5">
+                    <div class="text-center">
+                        <img src="./assets/icons/first.svg" alt="Collaborative">
+                        <h2 class="header">Collaborative</h2>
+                        <p>I can work within a team, collaborate well with designers, and I love feedback.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-5">
+                    <div class="text-center">
+                        <img src="./assets/icons/second.svg" alt="Communicative">
+                        <h2 class="header">Communicative</h2>
+                        <p>I communicate what I struggle to make all crystal clear. I can communicate my ideas well.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-5">
+                    <div class="text-center">
+                        <img src="./assets/icons/third.svg" alt="Client’s Favorite">
+                        <h2 class="header">Client’s Favorite</h2>
+                        <p>I’ve been freelancing for 1 year, working directly with clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-skill p-5">
+            <p class="mb-5">Tools & Skill</p>
+            <div class="row">
+                <div class="col mb-3">
+                    <img src="./assets/images/figma.png" alt="Figma" width="100">
+                </div>
+                <div class="col mb-3">
+                    <img src="./assets/images/xd.png" alt="Adobe XD" width="100">
+                </div>
+                <div class="col mb-3">
+                    <img src="./assets/images/lara.png" alt="Laravel" width="100">
+                </div>
+                <div class="col mb-3">
+                    <img src="./assets/images/flutter.png" alt="Flutter" width="100">
+                </div>
+            </div>
+        </div>
     </div>
 
     <hr>
-    <div class="container footer">
+    <div class="container footer" id="contact">
         <div class="row mb-5">
             <div class="col-lg-3 col-md-6">
                 <div class="group">
@@ -84,34 +167,13 @@
                     </div>
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="">Project</a>
                         </li>
                         <li>
-                            <a href="#">Kelas</a>
+                            <a href="">YouTube</a>
                         </li>
                         <li>
-                            <a href="#">Code</a>
-                        </li>
-                        <li>
-                            <a href="#">Buat Permintaan</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="group">
-                    <div class="parent">
-                        Bantuan
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="#">Cara Belajar Online</a>
-                        </li>
-                        <li>
-                            <a href="#">Tata Cara Order</a>
-                        </li>
-                        <li>
-                            <a href="#">Kebijakan Privasi</a>
+                            <a href="">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -134,7 +196,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="group">
                     <div class="parent">
-                        Social
+                        Contact
                     </div>
                     <ul>
                         <li>
@@ -154,13 +216,6 @@
             <p>© 2021 Ihsanfrr • All rights reserved</p>
         </div>
     </div>
-
-    <a target="_blank"
-        href="https://api.whatsapp.com/send?phone=628990671252&text=Hai%20Ihsan,%20saya%20butuh%20bantuan%20;)">
-        <div class="circle-box">
-            <img src="./assets/icons/butuh-bantuan.svg" alt="Butuh Bantuan?">
-        </div>
-    </a>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
